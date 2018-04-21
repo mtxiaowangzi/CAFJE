@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAFJE>
+	<vuln name="${parameter}" id="SQLiMybatis1">
+		<regexp>^((?!(like|order)).)*\$\{\w+\}((?!(like|order)).)*$</regexp>
+		<decription>SQLiMybatis</decription>
+		<recommendation>修复建议</recommendation>
+		<reference>CWE链接：</reference>
+	</vuln>
+	<vuln name="like" id="SQLiMybatis2">
+		<regexp>like\s+'\%\$\{\w+\}\%</regexp>
+		<decription>SQLiMybatis</decription>
+		<recommendation>使用连接符</recommendation>
+		<reference>CWE链接：</reference>
+	</vuln>
+	<vuln name="Order by" id="SQLiMybatis3">
+		<regexp>order\sby.*\$\{</regexp>
+		<decription>SQLiMybatis3</decription>
+		<recommendation>修复建议</recommendation>
+		<reference>CWE链接：</reference>
+	</vuln>
+</CAFJE>
