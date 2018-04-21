@@ -19,8 +19,6 @@ Code Audit For Java Enterprise
 java -jar CAFJE.jar config.properties
 ```
 
-更多：[CAFJE 又一个Java Web代码审计工具](http://eveino.com/216.html)
-
 ## Rules
 
 ```
@@ -43,3 +41,4 @@ ObjectDeserialization.xml 反序列化
 FileUpload.xml 文件上传
 ```
 
+更多：[CAFJE 又一个Java Web代码审计工具](http://eveino.com/216.html)
