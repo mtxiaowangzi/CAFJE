@@ -20,3 +20,26 @@ java -jar CAFJE.jar config.properties
 ```
 
 更多：[CAFJE 又一个Java Web代码审计工具](http://eveino.com/216.html)
+
+## Rules
+
+```
+SSRF.xml 服务端请求伪造
+UserInfoLeak.xml 用户信息泄露
+SQLiHibernate.xml
+File.xml 操作文件
+XXE.xml XXE
+PrintStackTrace.xml 
+Exec.xml 命令执行
+SQLiIbatis.xml
+IntranetIPLeak.xml
+SQLiJdbc.xml
+SQLiMybatis.xml
+FilePathManipulation.xml 操作文件路径
+XSS.xml XSS
+DemoRule.xml 规则Demo
+URL-Redirect.xml
+ObjectDeserialization.xml 反序列化
+FileUpload.xml 文件上传
+```
+
