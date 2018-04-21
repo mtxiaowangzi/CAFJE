@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAFJE>
+	<vuln name="PrintStackTrace" id="PrintStackTrace1">
+		<regexp>.\.printStackTrace\(\);</regexp>
+		<decription>异常消息使用printStackTrace直接打印，可能导致信息泄露。</decription>
+		<recommendation>将异常记录到日志或以其他方式处理异常。</recommendation>
+		<reference>CWE链接:</reference>
+	</vuln>
+</CAFJE>

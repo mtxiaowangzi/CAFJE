@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAFJE>
+	<vuln name="vulName" id="vulId">
+		<regexp>demoRegexpHere</regexp>
+		<decription>缺陷描述。</decription>
+		<recommendation>修复建议</recommendation>
+		<reference>CWE链接：</reference>
+	</vuln>
+</CAFJE>
