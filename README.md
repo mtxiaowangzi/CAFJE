@@ -27,7 +27,6 @@ UserInfoLeak.xml 用户信息泄露
 SQLiHibernate.xml
 File.xml 操作文件
 XXE.xml XXE
-PrintStackTrace.xml 
 Exec.xml 命令执行
 SQLiIbatis.xml
 IntranetIPLeak.xml
